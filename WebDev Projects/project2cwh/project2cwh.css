@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 0px;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.1rem;
+    padding-left: 28px;
+    font-family: "Cuprum", sans-serif;
+}
+#navbar ul li a{
+    color: bisque;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+#navbar ul li a:hover{
+    color: wheat;
+    background: rgb(222, 107, 107);
+}
+#logo{
+    margin: 10px 10px;
+}
+#logo img{
+    height: 90px;
+    margin: 5px 2px;
+}
+#home{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 3px 6px;
+    height: 397px;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('https://images.unsplash.com/photo-1458253756247-1e4ed949191b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center/cover;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+    opacity: 0.90;
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: "Jost", sans-serif;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "Jost", sans-serif;
+}
+.h-primary center{
+    padding-top: 350px;
+}
+#services{
+    display: flex;
+    margin: 0px;
+    padding: 5px 13px;
+    top: 0px;
+    left: 0px;
+    /* right: 0px; */
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 24px 10px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background: rgb(242, 189, 170);
+}
+#services .box img{
+    height: 160px;
+    margin: auto;
+    display: block; 
+}
+#services .box p{
+    font-family: "Varela Round", sans-serif;
+    text-align: center;
+}
+#client-section{
+    /* height: 250px; */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('https://media.istockphoto.com/id/1204371265/photo/flat-lay-of-turkish-traditional-foods-for-celebrating-holiday-wode-composition.jpg?s=612x612&w=0&k=20&c=X-9XA8TIOe-GxtYnojNLUfu-_rXR1Zab1GYqAu1ne64=');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: 0px 20px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:fit-content;
+}
+.client-item{
+    padding: 13px;
+}
+#clients img{
+    height: 54px;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L2lzMTYwNjItaW1hZ2Uta3d2eWZrd3IuanBn.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 9px;
+    font-size: 1.1rem;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.1rem;
+    font-family: "Varela Round", sans-serif;
+}
+footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+.h-primary{
+    font-family: "Cuprum", sans-serif;
+    font-size: 2.2rem;
+    padding: 0px;
+}
+.h-secondary{
+    font-family: "Cuprum", sans-serif;
+    font-size: 2.0rem;
+    padding: 12px;
+}
+.btn{
+    margin: 12px;
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: rgb(193, 91, 91);
+    font-size: 0.9rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.center{
+    text-align: center;;
+}

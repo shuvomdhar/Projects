@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Gym</title>
+    <style>
+        body {
+            background-image: url('project1cwh_images/gymbg.jpg');
+            position: relative;
+            background-size: 100% 100vh;
+            background-repeat: no-repeat;
+        }
+
+        .first img {
+            width: 100px;
+            float: left;
+            margin-left: 5px;
+            padding: 2px;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        ul {
+            top: 0%;
+            margin: 0px;
+            padding-left: 300px;
+            position: absolute;
+            font-style: normal;
+            width: 500px;
+            font-weight: bold;
+        }
+
+        ul li {
+            color: white;
+            list-style: none;
+            display: inline;
+            cursor: pointer;
+            float: left;
+            padding: 30px;
+        }
+
+        li:hover {
+            color: brown;
+            text-decoration-line: underline;
+        }
+
+        .second {
+            color: white;
+            width: 50px;
+            font-family: "Play", sans-serif;
+        }
+
+        .second h2 {
+            margin: 3px;
+            padding-left: 12px;
+        }
+
+        .second h3 {
+            margin: 3px;
+            padding-left: 33px;
+        }
+
+        #searchbar {
+            float: right;
+            top: 10px;
+            right: 10px;
+            position: absolute;
+            padding: 0px 150px;
+            width: 35px;
+        }
+
+        #form {
+            margin-top: 0px;
+            margin-left: 20px;
+            color: white;
+            width: 350px;
+        }
+
+        .fifth div {
+            padding: 4px;
+        }
+
+        .fifth button:hover {
+            color: brown;
+            border: 1px solid brown;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="first" id="logoimage">
+            <img src="project1cwh_images/gymlogo.webp" alt="Fitness Gym logo">
+        </div>
+        <div class="second" id="title">
+            <h2>Fitness</h2>
+            <div class="second1">
+                <h3>Gym</h3>
+            </div>
+            <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+        </div>
+        <div class="third">
+            <nav class="navigation">
+                <ul>
+                    <li>Home</li>
+                    <li>Service</li>
+                    <li>Help</li>
+                    <li>Contact us</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="fourth" id="searchbar">
+            <input type="text" name="search" id="search" placeholder="Search">
+        </div>
+        <div class="fifth" id="form">
+            <form action="backend.php">
+                <label for="name"></label>
+                <div>
+                    <h3>Join our gym now</h3>
+                </div>
+                <div>
+                    Name: <input type="text" name="myName" id="name" placeholder="Enter your name here" required>
+                </div>
+                <div>
+                    Email: <input type="email" name="myEmail" placeholder="Contact e-mail here" required>
+                </div>
+                <div>
+                    Age: <input type="age" name="myEligibility" placeholder="Your age" required>
+                </div>
+                <div>
+                    Gender: Male<input type="radio" name="myGender"> Female<input type="radio" name="myGender">
+                    Other<input type="radio" name="myGender" required>
+                </div>
+                <div id="txtarea">
+                    <div>
+                        Other queries:
+                    </div>
+                    <textarea name="myText" cols="40" rows="10" placeholder="Anything else? ...."></textarea>
+                </div>
+                <div id="button">
+                    <input type="submit" value="Submit now">
+                    <input type="reset" value="Reset now">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
