@@ -17,7 +17,6 @@ key = api_key
 geocoder = OpenCageGeocode(key)
 query = str(location)
 results = geocoder.geocode(query)
-# print(results)
 
 lat = results[0]['geometry']['lat']
 lng = results[0]['geometry']['lng']
