@@ -56,6 +56,15 @@ The application requires the following transaction details:
    pip install -r requirement.txt
    ```
 
+# Fraud Detection App
+
+This project uses a credit card fraud detection dataset.
+
+📊 **Dataset:** 
+```
+https://www.kaggle.com/datasets/shuvomdhar/credit-card-fraud-detection-dataset
+```
+
 ## Dependencies
 
 The application uses the following Python libraries:
