@@ -23,7 +23,7 @@ A machine learning-powered web application that analyzes text messages and predi
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/shuvomdhar/Projects.git
    cd Emotion Detection
    ```
 
