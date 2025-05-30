@@ -17,7 +17,7 @@ This application uses advanced machine learning algorithms to analyze credit car
 ## Project Structure
 
 ```
-Credit Card Fraud Detection/
+Credit Card Fraud Detection App/
 ├── app.py                      # Main Flask/Streamlit application
 ├── app.ipynb                   # Jupyter notebook for development/testing
 ├── fraud_detection_model.jb    # Trained machine learning model
@@ -48,7 +48,7 @@ The application requires the following transaction details:
 
 1. **Clone or download the project folder**:
    ```bash
-   cd "Credit Card Fraud Detection"
+   cd "Credit Card Fraud Detection App"
    ```
 
 2. **Install required dependencies**:
